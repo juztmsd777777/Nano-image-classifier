@@ -1,14 +1,56 @@
-# Nano-image-classifier
-This is a simple image classifier website where you can upload your image and the model predicts which type of image it is
+# Nano Image Classifier
+
+Nano Image Classifier is a simple **Streamlit-based image classification web application**.  
+Users can upload an image, and a **pretrained MobileNetV2 model** predicts the image category.
+
+---
+
+## 🚀 How to Run the Project
+
+### Step 1: Clone the repository
+```bash
+git clone https://github.com/juztmsd777777/Nano-image-classifier.git 
+```
+### Step 2: Navigate to the project directory
+cd imagecl
+
+###Step 3: Run the Streamlit app
+uv run streamlit run main.py
+
+🌐 Open in Browser
+
+After running the app, open:
+
+http://localhost:8501
+
+🧠 Model Used
+
+MobileNetV2 (pretrained on ImageNet)
+
+🛠️ Tech Stack
+
+Python
+
+Streamlit
+
+TensorFlow / Keras
+
+OpenCV
+
+NumPy
+
+📌 Notes
+
+Ensure uv is installed on your system.
+
+Model weights will be downloaded automatically on first run.
+
+📄 License
+
+MIT License
 
 
-#how to run this website
-step 1: git pull https://github.com/juztmsd777777/Nano-image-classifier.git
+---
 
-step 2: cd imagecl
-step 3: uv run streamlit run main.py
-
-
-You can open by clicking on this link : http://localhost:8501
-
-
+If you want **requirements.txt** or **project screenshots section**, say the word 👌
+::contentReference[oaicite:0]{index=0}
