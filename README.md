@@ -19,17 +19,17 @@ cd imagecl
 uv run streamlit run main.py
 ```
 
-##🌐 Open in Browser
+###🌐 Open in Browser
 
 After running the app, open:
 
 http://localhost:8501
 
-##🧠 Model Used
+###🧠 Model Used
 
 MobileNetV2 (pretrained on ImageNet)
 
-##🛠️ Tech Stack
+###🛠️ Tech Stack
 
 Python
 
@@ -41,13 +41,13 @@ OpenCV
 
 NumPy
 
-##📌 Notes
+###📌 Notes
 
 Ensure uv is installed on your system.
 
 Model weights will be downloaded automatically on first run.
 
-##📄 License
+###📄 License
 
 MIT License
 
